@@ -4,6 +4,7 @@ const jwt=require('jsonwebtoken');
 const secretkey="hsdhskisokjdsnkjcdhsnkihwndikhwksdnwhndwhd";
 const signincontroller=async(req,res)=>{
     try{
+        
         const {email,password}=req.body;
         if(!email || !password){
             res.status(400).json({
