@@ -8,7 +8,7 @@ const routes=express.Router();
 
 routes.post('/signup',signup);
 routes.post('/signin',signincontroller);
-routes.post('/carousel',carousel);
+routes.get('/carousel',carousel);
 routes.get('/categories',categoryController);
 routes.get('/home',homecontroller);
 
