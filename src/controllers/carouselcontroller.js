@@ -4,7 +4,6 @@ const carousel=async(req,res)=>{
     try{
         const user=await Carousel.find();
         res.status(200).json({
-            message:"success",
             data:user
         })
     }
