@@ -1,4 +1,4 @@
-const Home = require("../models/homemodel")
+const Home = require("../models/homemodel");
 
 const homecontroller=async(req,res)=>{
     try{
